@@ -1,0 +1,12 @@
+body{
+    background: #808080;
+    text-align: center;
+}
+p a{
+    color: black;
+    text-decoration: none;
+}
+p :hover{
+    text-decoration: underline;
+    color: #302f2f;
+}
