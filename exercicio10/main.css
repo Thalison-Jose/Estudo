@@ -28,7 +28,7 @@ font-size: 1.2em;
 max-width: 600px;
 margin: auto;
 }
-a:hover {
+header a:hover {
 background: #84e1ad;
 padding: 10px;
 padding-bottom: 1px;
@@ -43,7 +43,7 @@ padding: 10px;
 main{
 min-width: 320px;
 max-width: 850px;
-background: #ffffff;
+background: #fffff1;
 text-align: center;
 margin: auto;
 margin-bottom: 30px;
@@ -92,4 +92,9 @@ margin-top: 0%;
 }
 .image-width{
 width: 90%;
+}
+.link-externo{
+color: #000000;
+padding: 0px;
+font-weight: bolder;
 }
