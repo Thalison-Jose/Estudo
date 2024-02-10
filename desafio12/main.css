@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+header{
+    padding: 10px;
+    background-color: black;
+}
+header h1, header p{
+    color: #ffffff;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+#first{
+    background-image: url(img/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 220px;
+}
+#first p{
+    background-color: #ffffff50;
+    width: 180px;
+    height: 8em;
+    padding: 3px;
+    margin: 20px;
+    border-radius: 10px;
+}
+#second{
+    background-image: url(img/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 220px;
+}
+#second p{
+    background-color: #ffffff50;
+    width: 180px;
+    height: 8em;
+    padding: 3px;
+    margin: 20px;
+    border-radius: 10px;
+}
+section p{
+    padding: 20px;
+}
