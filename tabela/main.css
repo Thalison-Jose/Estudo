@@ -8,3 +8,6 @@ th , td{
 th{
     background-color: grey;
 }
+div{
+    overflow: auto;
+}
