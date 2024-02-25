@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>botão</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        <p>
+            <label for="inum1">escolha o primeiro numero</label>
+            <input type="number" name="num1" id="inum1" oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="inum2">escolha outro numero</label>
+            <input type="number" name="num2" id="inum2" oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+        <label for="soma">soma</label>
+        <output id="isoma">0</output>
+    </form>
 </body>
 </html>
